@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloToastLinearLayoutApp</string>
+    <string name="hello_toast">Hello Toast</string>
+    <string name="toast">TOAST</string>
+    <string name="_0">0</string>
+    <string name="COUNT">Count</string>
+</resources>
