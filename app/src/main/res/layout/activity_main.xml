@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="#008000"
+    android:background="#F5F5DC"
     android:padding="16dp">
 
     <!-- Toolbar (Header) -->
@@ -38,14 +38,21 @@
         android:textSize="96sp"
         android:textColor="#008000"
         android:layout_marginBottom="20dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
     <Button
         android:id="@+id/button_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#008000"
         android:text="@string/COUNT"
-        android:textSize="24sp"
         android:textColor="#FFFFFF"
-        android:background="#008000" />
+        android:textSize="24sp"
+        android:layout_marginBottom="70dp"
+
+        />
 
 </LinearLayout>
